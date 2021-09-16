@@ -76,7 +76,7 @@ const instanceA = container.getInstance("a");
 There is a support for circular dependency, that's why I chose to not inject the dependency using constructor.
 
 ```js
-    class A {
+class A {
   dependencies = ["b"];
 }
 
